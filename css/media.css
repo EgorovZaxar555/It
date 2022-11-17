@@ -1,0 +1,302 @@
+@media (max-width: 1080px) {
+    .container {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .nav a {
+        font-size: 20px;
+    }
+
+    .card__new {
+        width: 268px;
+    }
+
+    .tovar_image {
+        width: 254px;
+    }
+
+    .tovars-wrapper {
+        width: 100%;
+        display: flex;
+
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .heading-title {
+        margin-top: -76px;
+    }
+
+    .tovar_block::after{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card__new {
+        width: 268px;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 975px) {
+    .about_block {
+        padding-right: 30px;
+    }
+
+    .tovar_image {
+        width: 229px;
+    }
+
+}
+
+@media (max-width: 930px) {
+    .heading {
+        height: 100px;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 920px) {
+    .tovars {
+        margin-top: 20px;
+    }
+
+    .about_wrapper {
+        flex-direction: column;
+        margin-top: -60px;
+    }
+
+    .about_block {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about_image {
+        width: 503px;
+    }
+
+    .news {
+        transform: translateY(0);
+    }
+
+    .news-content {
+        flex-wrap: wrap;
+    }
+
+    .card__new {
+        display: flex;
+        justify-content: inherit;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .image_news {
+        width: 230px;
+        height: 200px;
+    }
+
+    .tovars-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .tovar_block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .tovar_image {
+        width: 100%;
+        height: 400px;
+        background-position: center;
+    }
+
+    .tovar_image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .nav a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 740px) {
+    .nav a {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .heading_button {
+        margin-top: 73px;
+    }
+
+    .card__new {
+        width: 80%;
+    }
+
+    .tovar_block {
+        width: 407px;
+        margin-bottom: 30px;
+    }
+
+    .tovars-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_news {
+        width: 230px;
+        margin: 0 auto;
+        height: 128px;
+    }
+
+    .card__new {
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+    }
+
+    .news_text p {
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        color: rgb(101, 101, 101);
+    }
+
+    .news_coment {
+        margin: 10px auto 10px;
+        float: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 525px) {
+    .about_image {
+        width: 420px;
+        height: 273px;
+    }
+
+    .form_row{
+        width: 90vw;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 490px){
+    .contacts__form{
+        width: 0;
+    }
+    .footer_wrapper{
+        flex-direction: column;
+    }
+
+    .icon_image{
+        width: 30px;
+    }
+}
+
+@media (max-width: 430px){
+    .about_image {
+        width: 90vw;
+        height: 273px;
+    }
+}
+
+@media (max-width: 320px){
+    .news_coment {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto 10px;
+        float: none;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1440px) and (max-width: 2000px){
+
+    .nav a{
+        font-size: 20px;
+    }
+
+    .fon__image{
+        height: 100vh;
+    }
+
+    .heading-title{
+        font-size: 55px;
+    }
+
+    .heading_button{
+        margin-top: 55px;
+    }
+
+    .heading_button a{
+        font-size: 25px;
+        padding: 15px 45px;   
+    }
+
+    .container{
+        margin: 0 250px;
+    }
+
+    .tovars_title{
+        font-size: 40px;
+    }
+
+    .about_text{
+        font-size: 25px;
+        letter-spacing: 0.13em;
+    }
+
+    .about_link{
+        font-size: 20px;
+    }
+
+    .about_image {
+        width: 75vh;
+        height: 50vh;
+    }
+
+    .label{
+        font-size: 25px;
+    }
+
+    .input{
+        width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
